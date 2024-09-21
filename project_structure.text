@@ -1,0 +1,17 @@
+- .eslintrc.json
+- .gitignore
+- README.md
+- app
+  - favicon.ico
+  - fonts
+    - GeistMonoVF.woff
+    - GeistVF.woff
+  - globals.css
+  - layout.js
+  - page.js
+- jsconfig.json
+- next.config.mjs
+- package-lock.json
+- package.json
+- postcss.config.mjs
+- tailwind.config.js

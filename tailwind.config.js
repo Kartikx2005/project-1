@@ -12,6 +12,9 @@ module.exports = {
         foreground: "var(--foreground)",
       },
     },
+    container: {
+      center: true,
+    }
   },
   plugins: [],
 };
