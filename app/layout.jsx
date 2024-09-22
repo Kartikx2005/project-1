@@ -1,8 +1,8 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { ClerkProvider } from '@clerk/nextjs';
-import Header  from './components/header'
-
+import Header from './components/header'
+import { dark } from '@clerk/themes';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -12,7 +12,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider appearance={{
+      baseTheme: dark,
+    }}>
       <html lang='en'>
         <body className={inter.className}>
           <Header />
